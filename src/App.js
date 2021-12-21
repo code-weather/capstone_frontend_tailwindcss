@@ -64,7 +64,6 @@ function App() {
       body: JSON.stringify(newQuote)
     });
 
-    // update the list of quotes
     getQuotes()
   }
 
